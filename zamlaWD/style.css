@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+header{
+    background: #EEEFF1;
+    padding-top: 56px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+.menu li a{
+    margin: 0 21px;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 0.1em;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 80px;
+    gap: 140px;
+}
+.banner_img{
+    display: flex;
+    align-items: center;
+}
+.banner_info p{
+    margin: 60px 0;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+.banner_info button{
+    background: #34547A;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 25px 41px;
+    border: none;
+}
+
+
+
+.main_title{
+    padding: 100px 0;
+    text-align: center;
+}
+.main_title div{
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.main_title p {
+    font-size: 16px;
+    color: #727272;
+    max-width: 540px;
+    line-height: 26px;
+    margin: auto;
+}
+
+
+
+.projects{
+    background: #34547A;
+    padding: 100px 0;
+}
+.projects .container{
+    display: flex;
+    justify-content: space-between;
+}
+.project{
+    display: flex;
+    gap: 20px;
+}
+.project_text{
+    color: #FFFFFF;
+    line-height: 26px;
+
+}
+.project_text div{
+    font-weight: 500;
+    font-size: 21px;
+}
+.project_text p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+.scills{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.scills_title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin: 70px 0 20px 0;
+}
+.scills_chart p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 30px 0 20px 0;
+}
+.chart0{
+    width: 445px;
+    height: 4px;
+    background: #C4C4C4;
+}
+.chart1{
+    width: 350px;
+    height: 4px;
+    background: #34547A;
+}
+
+
+
+.video{
+    background: #EEEFF1;
+}
+video{
+    max-width: 1060px;
+    padding-bottom: 100px;
+}
+
+
+
+.gallary {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.gallary img{
+    max-width: 480px;
+    max-height: 480px;
+    z-index: -1;
+}
+.gallary_img:hover{
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+}
